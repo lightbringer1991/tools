@@ -1,0 +1,8 @@
+#!/bin/bash
+# remove local branch and checkout from master
+BRANCH=$1
+
+git checkout master
+git pull origin master
+git branch -D ${BRANCH}
+git checkout -b ${BRANCH}
