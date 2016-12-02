@@ -12,3 +12,5 @@ Add this to the bottom of your ~/.bashrc file (if you're using bash, which you p
 Now log back in and out of your terminal and you should be able to simply type start-working, and your script will execute.
 
 Now that your path is setup, any new scripts you drop into your ~/bin you can just type in the name of.
+
+put command into .bash_profile, then run `source ~/.bash_profile`
